@@ -1,0 +1,85 @@
+html {
+height: 100%;
+}
+body {
+height: 100%;
+}
+h1 {
+font-size: 30px;
+line-height: 1em;
+background: #525;/*
+  background-image: -moz-linear-gradient(top, #414, #525);
+background-image: -webkit-gradient(linear, left top, left bottom, from(#414), to(#525));*/
+  ;
+font-family: georgia,serif;
+font-weight: normal;
+font-style: italic;
+color: #ffffff;
+padding: 20px;
+padding-bottom: 10px;
+}
+h1 span {
+font-family: MetaBlack,"Trebuchet MS",sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-style: normal;
+font-size: 160%;
+line-height: 60px;
+display: block;
+letter-spacing: -0.02em;
+}
+
+#nav {
+display: block;
+width: 300px;
+float: left;
+background: url(img/bg.png);
+background-repeat: repeat-x;
+background-position: 0 120px;
+height: 100%;
+/*background-image: -moz-linear-gradient(top,  rgba(180, 218, 244, 0.3), rgba(180, 218, 244, 0) 70%);*/
+}
+#controls {
+padding: 20px;
+}
+#map_canvas {
+height: 100%
+}
+#map_wrapper {
+height: 55%;
+padding: 0.3%;
+background: #fff;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: 2px 2px 5px rgba(88,88,88,0.5);
+-webkit-box-shadow: 2px 2px 5px rgba(88,88,88,0.5);
+margin-left: 10px;
+margin-right: 10px;
+}
+#time {
+position: absolute;
+background: #FFF;
+width: 100px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding: 4px 10px 8px;
+text-align: center;
+height: 30px;
+font: 23px/22px Futura, Helvetica, Arial, sans-serif;
+color: #6688cc;
+margin-left: -50px;
+margin-bottom: 20px;
+z-index: 10;
+top: 23px;
+/*    left:440px;*/
+    right:25px;
+-moz-box-shadow: 2px 2px 3px #444;
+-webkit-box-shadow: 2px 2px 3px #444;
+box-shadow: 2px 2px 3px #444;
+}
+#time span {
+font: 10px/16px Futura, Helvetica, Arial, sans-serif;
+display: block
+}
